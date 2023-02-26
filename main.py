@@ -4,7 +4,7 @@ import streamlit as st
 from PIL import Image
 
 # loading the saved model
-loaded_model = pickle.load(open(r'C:\Users\abhil\Downloads\Clustering_deployment\model_kmeans','rb'))
+loaded_model = pickle.load(open(r'model_kmeans','rb'))
 
 def Cluster_prediction(input_data):
     
